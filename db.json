@@ -1,0 +1,51 @@
+  
+  {"books" :[
+    {
+      "name": "Dune",
+      "author": "Frank Herbert",
+      "year": 1965,
+      "image": "https://images.pexels.com/photos/1606327/pexels-photo-1606327.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "1984",
+      "author": "George Orwell",
+      "year": 1949,
+      "image": "https://images.pexels.com/photos/3671145/pexels-photo-3671145.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Foundation",
+      "author": "Isaac Asimov",
+      "year": 1951,
+      "image": "https://images.pexels.com/photos/1606327/pexels-photo-1606327.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Neuromancer",
+      "author": "William Gibson",
+      "year": 1984,
+      "image": "./public/images/car.png"
+    },
+    {
+      "name": "Ender's Game",
+      "author": "Orson Scott Card",
+      "year": 1985,
+      "image": "./public/images/car1.png"
+    },
+    {
+      "name": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "year": 1979,
+      "image": "./public/images/car2.png"
+    },
+    {
+      "name": "Brave New World",
+      "author": "Aldous Huxley",
+      "year": 1932,
+      "image": "./public/images/car3.png"
+    },
+    {
+      "name": "Snow Crash",
+      "author": "Neal Stephenson",
+      "year": 1992,
+      "image": "./public/images/car4.png"
+    } 
+  ]}

@@ -1,0 +1,43 @@
+---
+import Post from "../componentes/Post.astro";
+import Blog from "../componentes/Blog.astro";
+import Articulo from "../componentes/Articulo.astro";
+
+ 
+
+import DefaultLayout from "../layouts/DefaultLayout.astro";
+---
+
+
+    <DefaultLayout>
+
+      <meta slot="header" charset="utf-8" />
+      <link slot="header" rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      <meta slot="header" name="viewport" content="width=device-width" />
+      <meta slot="header" name="generator" content={Astro.generator} />
+      <title slot="header">Web-Astro-index</title>
+
+
+      <h1 class="text-6xl text-white m-9 text-center">WELLCOME MY WEBSITE   ASTRO.</h1> 
+      <h1 class="text-center text-9xl">Astro</h1>
+      <Post title="Mi primer post" description="Descripcion del post." />
+
+      <Blog
+        post={{
+          title: "Mi primer blog",
+          description: "Descripcion del blog",
+        }}
+      />
+
+      <Articulo
+        post={{
+          title: "Mi primer articulo",
+          description: "Descripcion del articulo",
+          image:
+            "https://images.pexels.com/photos/1059823/pexels-photo-1059823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        }}
+      />
+      <hr />
+ 
+    </DefaultLayout>
+

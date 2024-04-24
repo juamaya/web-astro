@@ -1,0 +1,26 @@
+---
+import Navbar from "../componentes/Navbar.astro";
+import Footer from "../componentes/Footer.astro";
+import { ViewTransitions } from "astro:transitions";
+---
+
+<html lang="eS">
+  <head>
+    <slot name="header">
+      <meta charset="utf-8" />
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      <meta name="viewport" content="width=device-width" />
+      <meta name="generator" content={Astro.generator} />
+      <title>Web-Astro</title>
+    </slot>
+    <ViewTransitions />
+  </head>
+
+  <body class="bg-amber-800">
+    <main>
+      <Navbar />
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
